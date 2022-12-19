@@ -14,7 +14,7 @@ const Motivation = () => {
           className="object-cover h-[500px]"
         />
         <div className="w-2/4 absolute left-2/4">
-          <div className="bg-bright text-dark-blue p-10">
+          <div className="bg-tum_blue_bright text-dark-blue p-10">
             <div className="text-3xl font-bold tracking-small">
               Schools and Research Centers
             </div>

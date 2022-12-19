@@ -13,9 +13,7 @@ const Select = () => {
       >
         <option value="1">Select degree on enter keyword</option>
       </select>
-      <div className="text-primary font-medium mt-5 flex justify-end">
-        <Image src={icon} className="w-[24px] h-[32px]" alt="tt" />
-      </div>
+      <div className="text-primary font-medium mt-5 flex justify-end"></div>
     </div>
   );
 };
