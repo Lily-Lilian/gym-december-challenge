@@ -39,7 +39,7 @@ const NewsCard = () => {
       {topics.map((topic, index) => (
         <div key={index} className="max-w-[332px]">
           <div className="relative">
-            <Image src={topic.img}></Image>
+            <Image src={topic.img} alt="image"></Image>
             <p className="absolute text-[13.33px] py-[2px] px-2 bottom-0 left-0 z-20 hover:text-tum_blue_dark_4 text-tum_blue_dark bg-tum_grey_8">
               {topic.span}
             </p>

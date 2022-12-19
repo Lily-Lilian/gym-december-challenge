@@ -32,11 +32,8 @@ const Navbar = () => {
         </ul>
         <div className="lg:flex hidden list-none space-x-3 flex-end  text-sm font-bold pt-8 pb-6">
           {navLinks.map((link, index) => (
-            <Link href={`/${link.page}`}>
-              <div
-                className="hover:underline text-white underline-offset-[28px]"
-                key={index}
-              >
+            <Link href={`/${link.page}`} key={index}>
+              <div className="hover:underline text-white underline-offset-[28px]">
                 {link.text}
               </div>
             </Link>

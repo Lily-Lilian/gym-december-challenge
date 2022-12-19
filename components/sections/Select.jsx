@@ -1,4 +1,5 @@
 import Image from "next/image";
+import icon from "../../public/assets/right.svg";
 
 const Select = () => {
   return (
@@ -13,7 +14,7 @@ const Select = () => {
         <option value="1">Select degree on enter keyword</option>
       </select>
       <div className="text-primary font-medium mt-5 flex justify-end">
-        <Image src="/icons/right.svg" width={24} height={32} />
+        <Image src={icon} className="w-[24px] h-[32px]" alt="tt" />
       </div>
     </div>
   );
