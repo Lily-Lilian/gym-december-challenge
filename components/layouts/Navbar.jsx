@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className="bg-tum_blue_dark flex justify-between text-white uppercase px-6 static">
+      <div className="bg-tum_blue_dark flex justify-between text-white uppercase px-6 fixed">
         <ul className="flex gap-3 py-5">
           <li className="p-[6px]">
             <Image className="w-[33px] h-[33px]" src={logo} alt="logo" />
