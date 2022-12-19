@@ -4,7 +4,7 @@ const research = () => {
   return (
     <>
       <Navbar />
-      <div className="text-center text-5xl py-20">This is Research page</div>
+      <div className="text-center text-5xl py-40">This is Research page</div>
     </>
   );
 };

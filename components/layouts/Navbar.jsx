@@ -15,8 +15,8 @@ const Navbar = () => {
     { text: "about tum", page: "about" },
   ];
   return (
-    <>
-      <div className="bg-tum_blue_dark flex justify-between text-white uppercase px-6 fixed">
+    <nav className="bg-tum_blue_dark sticky top-0 left-0 z-50 w-full ">
+      <div className=" flex justify-between text-white uppercase px-6 max-w-[104rem] xl:mx-auto">
         <ul className="flex gap-3 py-5">
           <li className="p-[6px]">
             <Image className="w-[33px] h-[33px]" src={logo} alt="logo" />
@@ -30,11 +30,11 @@ const Navbar = () => {
             Technical<br></br>University<br></br> of Munich
           </span>
         </ul>
-        <div className="lg:flex hidden list-none space-x-3 flex-end text-white text-sm font-bold pt-8 pb-6">
+        <div className="lg:flex hidden list-none space-x-3 flex-end  text-sm font-bold pt-8 pb-6">
           {navLinks.map((link, index) => (
             <Link href={`/${link.page}`}>
               <div
-                className="hover:underline underline-offset-[28px]"
+                className="hover:underline text-white underline-offset-[28px]"
                 key={index}
               >
                 {link.text}
@@ -42,11 +42,11 @@ const Navbar = () => {
             </Link>
           ))}
           <ul className="flex gap-3 pl-[54px]">
-            <li className="border-r-2 px-2">de</li>
+            <li className="border-r-2 px-2 opacity-50">de</li>
             <li>en</li>
             <li>
               <Image
-                className="w-[24px] h-[24px]"
+                className="w-[24px] h-[24px] "
                 src={search}
                 alt="search-icon"
               />
@@ -54,7 +54,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </>
+    </nav>
   );
 };
 

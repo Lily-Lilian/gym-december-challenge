@@ -4,7 +4,7 @@ const community = () => {
   return (
     <>
       <Navbar />
-      <div className="text-center text-5xl py-20">This is community page</div>
+      <div className="text-center text-5xl py-40">This is community page</div>
     </>
   );
 };

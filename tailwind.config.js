@@ -72,6 +72,10 @@ module.exports = {
         tum_grey_8: "#E8ECEF",
         tum_grey_9: "#F8F9FA",
       },
+      backgroundImage: {
+        black_gradient:
+          "linear-gradient(292deg, rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.85) 100%)",
+      },
     },
   },
   plugins: [],
