@@ -42,7 +42,7 @@ const Navbar = () => {
             </Link>
           ))}
           <ul className="flex gap-3 pl-[54px]">
-            <li className="border-r-2 px-2 opacity-50">de</li>
+            <li className="border-r-2 border-white px-2 opacity-50">de</li>
             <li>en</li>
             <li>
               <Image

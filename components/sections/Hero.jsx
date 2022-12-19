@@ -4,7 +4,7 @@ import Wrapper from "../Wrapper";
 
 const Hero = () => {
   return (
-    <div className="relative w-full min-h-[620px]">
+    <div className="relative w-full min-h-[620px] bg-tum_blue">
       <div className="bg-black_gradient absolute inset-0 z-20"></div>
       <Wrapper>
         <div className="text-white relative py-16 z-20 max-w-[648px]">

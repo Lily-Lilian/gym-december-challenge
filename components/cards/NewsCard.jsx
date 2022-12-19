@@ -35,21 +35,21 @@ const NewsCard = () => {
     // },
   ];
   return (
-    <div className="flex gap-8 ">
+    <div className="flex gap-8">
       {topics.map((topic, index) => (
         <div key={index} className="max-w-[332px]">
           <div className="relative">
             <Image src={topic.img}></Image>
-            <p className="absolute text-[13.33px] py-[2px] px-2 bottom-0 left-0 z-20 text-tum_blue_dark bg-tum_grey_8">
+            <p className="absolute text-[13.33px] py-[2px] px-2 bottom-0 left-0 z-20 hover:text-tum_blue_dark_4 text-tum_blue_dark bg-tum_grey_8">
               {topic.span}
             </p>
           </div>
-          <div>
+          <div className="hover:text-tum_blue_dark_4">
             <p className="text-base font-bold">{topic.paragraph}</p>
             <p className="text-xl font-bold mt-[2px]">{topic.names}</p>
             <h3 className="text-sm mt-3">{topic.title}</h3>
           </div>
-          <div className="flex text-[13.33px]">
+          <div className="flex text-[13.33px] hover:text-tum_blue_dark_4">
             <p className="p-3">{topic.date}</p>
             <p className="p-3">{topic.time}</p>
           </div>

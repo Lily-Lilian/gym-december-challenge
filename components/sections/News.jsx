@@ -5,7 +5,7 @@ import Wrapper from "../Wrapper";
 const News = () => {
   return (
     <Wrapper>
-      <div className="flex ">
+      <div className="flex lg:flex-row flex-col gap-6">
         <div className="relative flex flex-col mt-12">
           <h1 className="text-tum_blue_dark text-[32px] font-bold">
             News from TUM
@@ -20,7 +20,7 @@ const News = () => {
         </div>
         <NewsCard />
       </div>
-      <div className="flex mt-12 ml-[402.825px] -mr-[12px]">
+      <div className="flex lg:flex-row flex-col mt-12 lg:ml-[402.825px] -mr-[12px]">
         <NewsCard />
       </div>
     </Wrapper>
